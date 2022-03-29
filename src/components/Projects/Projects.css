@@ -1,0 +1,14 @@
+.projects {
+  background-color: var(--bg);
+  color: var(--fg);
+  padding: 90px 0;
+}
+
+.project-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px 0;
+  flex-wrap: wrap;
+}

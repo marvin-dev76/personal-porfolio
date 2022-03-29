@@ -1,0 +1,53 @@
+.project-card {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.project-name {
+  padding: 10px;
+  border: 1px solid var(--fg);
+  width: 100%;
+  text-align: center;
+}
+
+.project-repo-url {
+  color: var(--bg);
+  background-color: var(--fg);
+  padding: 10px;
+  text-decoration: none;
+  font-size: 1.3rem;
+  border: 1px solid var(--bg);
+  transition: color .3s ease, background-color .3s ease;
+}
+
+.project-repo-url:hover {
+  color: var(--fg);
+  background-color: var(--bg);
+  border: 1px solid var(--fg);
+}
+
+.project-description {
+  font-size: 1.1rem;
+  text-align: center;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  color: var(--second-fg);
+}
+
+.project-img {
+  width: 100%;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .project-description {
+    width: 100%;
+  }
+}

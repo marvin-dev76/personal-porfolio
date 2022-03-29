@@ -1,0 +1,116 @@
+.hire-me {
+  background-color: var(--bg);
+  color: var(--fg);
+  padding: 90px 0;
+  display: flex;
+  width: 100%;
+}
+
+.touch {
+  padding: 40px 0;
+}
+
+.hire-me-container {
+  display: flex;
+  width: 100%;
+  gap: 50px;
+  flex-direction: row;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  gap: 20px;
+}
+
+.input {
+  background-color: transparent;
+  padding: 15px;
+  width: 90%;
+  border: 2px solid var(--fg);
+  font-size: 1rem;
+  color: var(--fg);
+  outline: none;
+  font-family: 'Inconsolata';
+}
+
+.message {
+  resize: none;
+}
+
+.btn {
+  color: var(--fg);
+  cursor: pointer;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.btn:active {
+  background-color: var(--fg);
+  color: var(--bg);
+}
+
+::placeholder {
+  color: var(--second-fg);
+  opacity: 1;
+  font-family: "Inconsolata";
+  font-size: 1.1rem;
+}
+
+.social-section {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.social-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  width: 100%;
+}
+
+.download-cv {
+  padding: 20px;
+  background-color: transparent;
+  color: var(--fg);
+  font-size: 1.1rem;
+  border: 2px solid var(--fg);
+}
+
+.social {
+  font-size: 4rem;
+  color: var(--second-fg);
+}
+
+@media only screen and (max-width: 600px) {
+  .hire-me-container {
+    flex-direction: column;
+  }
+
+  .input {
+    width: 100%;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+
+  .social-section {
+    width: 100%;
+  }
+
+  .social {
+    font-size: 3.5rem;
+  }
+}

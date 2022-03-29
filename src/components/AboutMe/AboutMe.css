@@ -1,0 +1,91 @@
+.about-me {
+  background-color: var(--bg);
+  color: var(--fg);
+  padding: 90px 0;
+}
+
+.arch {
+  color: #1793d1;
+}
+
+.about-me-container {
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.about-me-jobs {
+  color: var(--second-fg);
+}
+
+.about-me-name {
+  text-align: center;
+  width: 100%;
+}
+
+.about-me-bio {
+  text-align: justify;
+  font-size: 1rem;
+  color: var(--second-fg);
+}
+
+.photo-technologies {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: auto;
+  gap: 30px;
+}
+
+.photo-container {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.technologies-container {
+  display: flex;
+  height: 100%;
+  width: 50%;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.technologies-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  height: 100%;
+}
+
+.tech {
+  font-size: 4rem;
+}
+
+.about-me-avatar {
+  width: 300px;
+  border-radius: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .photo-technologies {
+    flex-direction: column;
+    height: auto;
+    gap: 80px;
+  }
+
+  .photo-container {
+    width: 100%;
+    height: auto;
+  }
+  
+  .technologies-container {
+    width: 100%;
+    height: auto;
+  }
+}

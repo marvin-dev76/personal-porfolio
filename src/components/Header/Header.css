@@ -1,0 +1,87 @@
+.header {
+  background-image: url('/public/img/bg.jpg');
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  background-attachment: fixed;
+}
+
+.layer {
+  width: 100%;
+  min-height: inherit;
+  background-color: rgba(0, 0, 0, .65);
+  color: var(--fg);
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: transparent;
+  justify-content: center;
+  flex-direction: row;
+  user-select: none;
+  min-height: inherit;
+}
+
+.left-side {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-side {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+  font-size: 1.6rem;
+}
+
+.brace {
+  font-size: 5rem;
+}
+
+.title {
+  padding: 20px;
+  border: 2px solid var(--fg);
+  max-width: 300px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .hero {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .title {
+    width: 100%;
+    max-width: fit-content;
+  }
+
+  .left-side {
+    width: 100%;
+  }
+
+  .right-side {
+    width: 100%;
+    align-items: start;
+  }
+
+  .brace {
+    align-self: center;
+  }
+
+  .typewriter {
+    font-size: 1.5rem;
+    width: 100%;
+  }
+
+  .header {
+    background-attachment: scroll;
+  }
+}
