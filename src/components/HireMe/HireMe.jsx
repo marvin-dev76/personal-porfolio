@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import emailjs, { init } from "@emailjs/browser";
 import { toast } from "react-toastify";
 import "./HireMe.css";
-import cv from './cv.pdf';
 
 init(process.env.REACT_APP_EMAILJS_USER_ID);
 
@@ -98,7 +97,7 @@ const HireMe = () => {
               >
                 <i className="devicon-linkedin-plain colored social"></i>
               </a>
-              <a href={cv} download="marvin-cv">
+              <a href="cv.pdf" download>
                 <button className="download-cv">Download CV</button>
               </a>
             </div>
