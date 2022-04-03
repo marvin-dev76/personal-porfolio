@@ -1,6 +1,10 @@
+import header from './projects-img/header.png';
+import calculator from './projects-img/calculator.png';
+import weather from './projects-img/weather.png.png';
+
 const projectExtraDetails = [
   {
-    img: "./projects-img/header.png",
+    img: header,
     icons: [
       "devicon-html5-plain-wordmark colored",
       "devicon-css3-plain-wordmark colored",
@@ -10,7 +14,7 @@ const projectExtraDetails = [
     deploy_url: '#'
   },
   {
-    img: "./projects-img/calculator.png",
+    img: calculator,
     icons: [
       "devicon-html5-plain-wordmark colored",
       "devicon-css3-plain-wordmark colored",
@@ -19,7 +23,7 @@ const projectExtraDetails = [
     deploy_url: 'https://marvin-dev76.github.io/vanilla-js-basic-calculator/'
   },
   {
-    img: "./projects-img/weather.png",
+    img: weather,
     icons: [
       "devicon-html5-plain-wordmark colored",
       "devicon-css3-plain-wordmark colored",
