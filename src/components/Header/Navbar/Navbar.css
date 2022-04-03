@@ -77,6 +77,7 @@
   }
 
   .logo-navbar {
+    color: var(--second-fg);
     display: block;
     display: flex;
     align-items: center;

@@ -1,19 +1,38 @@
-import React from 'react';
-import './ProjectCard.css';
+import React from "react";
+import "./ProjectCard.css";
 
-const ProjectCard = ({project}) => {
+const ProjectCard = ({ project }) => {
   return (
     <div className="project-card">
       <h2 className="project-name">{project.name}</h2>
-      <p className="project-description">
-        {project.description}
-      </p>
-      <a href={project.repoUrl} className="project-repo-url" target="_blank">
+      <img className="project-img" src={project.img} alt="" />
+      <p className="project-description">{project.description}</p>
+      <a
+        href={project.repoUrl}
+        className="project-repo-url"
+        target="_blank"
+        rel="noreferrer"
+      >
         See code
       </a>
-      <img className="project-img" src={project.img} alt="" />
+      <a
+        href={project.deploy_url}
+        className="project-live-url"
+        target="_blank"
+        rel="noreferrer"
+      >
+        View Live
+      </a>
+      <h3 className="technologies-title">Technologies used in the project</h3>
+      <div className="icons-container">
+        {project.icons.map((icon, key) => (
+          <p key={key} className="project-icon">
+            <i className={icon}></i>
+          </p>
+        ))}
+      </div>
     </div>
   );
-}
+};
 
 export default ProjectCard;

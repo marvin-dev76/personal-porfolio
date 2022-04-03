@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400;600&display=swap");
 
 * {
   padding: 0;
@@ -11,14 +11,14 @@ html {
 }
 
 body {
-  font-family: 'Inconsolata';
+  font-family: "Inconsolata";
   overflow: overlay;
 }
 
 :root {
-  --bg: #06090B;
-  --fg: #A1BDA3;
-  --second-fg: #556556;
+  --bg: #121212;
+  --fg: #dfdfdf;
+  --second-fg: #bbbbbb;
 }
 
 ::-webkit-scrollbar {

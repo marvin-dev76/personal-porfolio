@@ -9,7 +9,7 @@
 
 .project-name {
   padding: 10px;
-  border: 1px solid var(--fg);
+  border: 2px solid var(--second-fg);
   width: 100%;
   text-align: center;
 }
@@ -21,13 +21,29 @@
   text-decoration: none;
   font-size: 1.3rem;
   border: 1px solid var(--bg);
-  transition: color .3s ease, background-color .3s ease;
+  transition: color 0.3s ease, background-color 0.3s ease;
 }
 
 .project-repo-url:hover {
   color: var(--fg);
   background-color: var(--bg);
   border: 1px solid var(--fg);
+}
+
+.project-live-url {
+  color: var(--fg);
+  background-color: var(--bg);
+  padding: 10px;
+  text-decoration: none;
+  font-size: 1.3rem;
+  border: 1px solid var(--fg);
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.project-live-url:hover {
+  color: var(--bg);
+  background-color: var(--fg);
+  border: 1px solid var(--bg);
 }
 
 .project-description {
@@ -45,6 +61,23 @@
   width: 100%;
 }
 
+.technologies-title {
+  padding: 20px 0;
+  color: var(--second-fg);
+}
+
+.icons-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 20px 0;
+  flex-wrap: wrap;
+}
+
+.project-icon {
+  font-size: 2.5rem;
+}
 
 @media only screen and (max-width: 600px) {
   .project-description {
