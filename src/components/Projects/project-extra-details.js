@@ -1,6 +1,6 @@
 import header from './projects-img/header.png';
 import calculator from './projects-img/calculator.png';
-import weather from './projects-img/weather.png.png';
+import weather from './projects-img/weather.png';
 
 const projectExtraDetails = [
   {
