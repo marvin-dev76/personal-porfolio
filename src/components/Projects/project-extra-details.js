@@ -22,7 +22,7 @@ const projectExtraDetails = [
       "devicon-javascript-plain colored",
       "devicon-react-original colored",
     ],
-    deploy_url: '#'
+    deploy_url: 'https://marvin-dev76.github.io/todo-context-app/'
   },
   {
     img: calculator,
