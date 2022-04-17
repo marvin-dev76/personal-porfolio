@@ -97,7 +97,7 @@ const HireMe = () => {
               >
                 <i className="devicon-linkedin-plain colored social"></i>
               </a>
-              <a href="cv.pdf" download>
+              <a href="MarvinCurriculum.pdf" download>
                 <button className="download-cv">Download CV</button>
               </a>
             </div>
