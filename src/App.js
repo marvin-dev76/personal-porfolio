@@ -10,8 +10,6 @@ import Footer from "./components/Footer/Footer";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-console.log(process.env.REACT_APP_MESSAGE);
-
 function App() {
   return (
     <div>

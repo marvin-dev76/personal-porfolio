@@ -24,7 +24,6 @@ const Projects = () => {
           icons: projectExtraDetails[i].icons,
           deploy_url: projectExtraDetails[i].deploy_url
         };
-        console.log(fullProject);
         projectList = [...projectList, fullProject];
         setProjects(projectList);
       }

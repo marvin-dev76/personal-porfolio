@@ -2,9 +2,14 @@ import React from "react";
 import "./ProjectCard.css";
 
 const ProjectCard = ({ project }) => {
+  
+  let name = project.name.split("-");
+  name = name.join(" ");
+  name = name.charAt(0).toUpperCase() + name.slice(1);
+
   return (
     <div className="project-card">
-      <h2 className="project-name">{project.name}</h2>
+      <h2 className="project-name">{name}</h2>
       <img className="project-img" src={project.img} alt="" />
       <p className="project-description">{project.description}</p>
       <a
